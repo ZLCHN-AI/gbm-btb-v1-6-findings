@@ -1,0 +1,4 @@
+comparison,gene,base_adjusted_effect,added_myeloid_adjusted_effect,donor_direction_after_myeloid,n_independent_donors,base_model_factors,expanded_model_addition,notes
+CT_minus_IT,PLVAP,0.161,0.135,4/4 positive,4,endothelial;pericyte;malignant,myeloid,Small effect; one donor approximately +0.01
+CT_minus_IT,CAV1,0.343,0.185,3/4 positive; one near zero,4,endothelial;pericyte;malignant,myeloid,Composition-sensitive; cannot infer endothelial transport
+CT_minus_IT,CAVIN1,0.262,0.181,4/4 positive,4,endothelial;pericyte;malignant,myeloid,Effect attenuates

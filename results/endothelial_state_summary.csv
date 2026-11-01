@@ -1,0 +1,4 @@
+comparison,feature,effect,effect_unit,direction_across_donors,n_independent_donors,n_endothelial_nuclei,n_canonical_nuclei,n_remodeling_nuclei,measurement_level,notes
+remodeled_minus_canonical,PLVAP_detection,0.26409,detection-rate difference,12/12 positive,12,2241,1363,878,snRNA,Cell state not spatially matched to IT/CT
+remodeled_minus_canonical,PLVAP_pseudobulk,1.61784,log1pCPM,11/12 positive,12,2241,1363,878,snRNA,Same parent GBM-Space atlas
+remodeled_minus_canonical,MFSD2A_pseudobulk,-0.71448,log1pCPM,10/12 negative,12,2241,1363,878,snRNA,No matched composition-adjusted spatial decrease

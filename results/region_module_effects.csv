@@ -1,0 +1,4 @@
+comparison,module,genes,donor_median_adjusted_effect,donor_direction,n_independent_donors,n_eligible_visium_sections,two_sided_exact_sign_test_p,measurement_level,notes
+CT_minus_IT,junction_associated,CLDN5;OCLN;TJP1,-0.25278,4/4 negative,4,17,0.125,tissue_spatial_RNA,Transcriptional score; not permeability
+CT_minus_IT,transcytosis_associated,PLVAP;CAV1;CAV2;CAVIN1,0.21665,4/4 positive,4,17,0.125,tissue_spatial_RNA,CAV1 is not endothelial-specific; not flux
+CT_minus_IT,composite_contrast,transcytosis minus junctional (derived),0.21296,4/4 positive,4,17,0.125,tissue_spatial_RNA,Derived metric; not independent of modules
