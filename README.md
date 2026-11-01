@@ -20,7 +20,7 @@ Do histopathologically annotated infiltrative-tumor (IT) and cellular-tumor (CT)
 
 ## Figures
 
-![Figure 2B: summary of gene-level composition sensitivity](figures/Figure2B_summary.png)
+![Figure 2B: summary of gene-level composition sensitivity](figures/Figure2B_summary.svg)
 
 *Figure 2B is a **summary-level draft visualization** of reported donor-median effects, not a donor-resolved final publication figure.*
 
@@ -35,7 +35,7 @@ docs/RELEASE_NOTES.md            V1.6 work-in-progress status and known gaps
 results/region_module_effects.csv
 results/gene_adjustment_sensitivity.csv
 results/endothelial_state_summary.csv
-figures/Figure2B_summary.png
+figures/Figure2B_summary.svg
 figures/Figure2B_summary.svg
 ```
 
