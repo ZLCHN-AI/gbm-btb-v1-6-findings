@@ -1,0 +1,17 @@
+gene,structure_acronym,n,median,q1,q3,structure_name
+CAV1,IT,3,0.426725,0.2797635,0.8630975,Infiltrating Tumor
+CAV1,LE,2,0.113732,0.0885155,0.1389485,Leading Edge
+CAV1,CTpnz,7,0.106763,0.0176016,0.33200799999999997,Perinecrotic zone
+CAV1,CTmvp,4,0.0970571,0.0482005,0.17888125,Microvascular proliferation
+CAV1,CTne,8,0.0699422,0.039923925,0.15881125000000001,Necrosis
+CAV1,CThbv,7,0.0649523,0.025566650000000003,0.09748455,Hyperplastic blood vessels in cellular tumor
+CAV1,CT,8,0.036038,0.019451775,0.081725925,Cellular Tumor
+CAV1,CTpan,6,0.0290982,0.00291135,0.19142550000000003,Pseudopalisading cells around necrosis
+PLVAP,CTmvp,3,2.9262,1.714057,7.13255,Microvascular proliferation
+PLVAP,CThbv,8,0.7007535,0.498838,1.342595,Hyperplastic blood vessels in cellular tumor
+PLVAP,CTne,8,0.616077,0.30579080000000003,1.869332,Necrosis
+PLVAP,CT,8,0.4957095,0.10957465000000001,1.106549,Cellular Tumor
+PLVAP,IT,3,0.406267,0.2127015,0.4383505,Infiltrating Tumor
+PLVAP,LE,3,0.243083,0.237287,0.511697,Leading Edge
+PLVAP,CTpnz,7,0.237714,0.08346415,1.786966,Perinecrotic zone
+PLVAP,CTpan,7,0.198814,0.12514,0.747818,Pseudopalisading cells around necrosis
