@@ -36,10 +36,18 @@ results/region_module_effects.csv
 results/gene_adjustment_sensitivity.csv
 results/endothelial_state_summary.csv
 figures/Figure2B_summary.svg
-figures/Figure2B_summary.svg
+figure_code/make_figures.py     Rebuilds Fig. 2, Fig. 4, Supp. Figs. S2–S3
+figure_code/data/               Frozen source tables used by make_figures.py
+ivygap_ish.py                   Ivy GAP ISH retrieval and analysis
+cache_ivygap/                   Cached API responses for offline reproduction
+results_ivygap/                 Ivy GAP ISH result tables and figures
 ```
 
-These `results/` tables reproduce **reported manuscript summary values**. They are **not raw RNA-seq/Visium data**, do not include spot-level or donor-level observations, and must **not** be treated as a fully reproducible analysis release. No new patients or experiments are represented.
+The `results/` tables reproduce **reported manuscript summary values** only.
+
+`figure_code/` is a re-executable figure release: `make_figures.py` rebuilds Fig. 2, Fig. 4 and Supplementary Figs. S2–S3 of the manuscript from the frozen donor-level and summary tables in `figure_code/data/` (`python make_figures.py`; requires numpy, pandas and matplotlib). `ivygap_ish.py` with `cache_ivygap/` reproduces the Ivy GAP in situ hybridization analysis offline.
+
+This repository does **not** contain raw RNA-seq, Visium or single-nucleus data, and it does not re-run the upstream analysis from raw data; third-party source datasets must be obtained from the original providers listed below. Upstream analysis scripts are in [`gbm-btb-spatial-remodeling`](https://github.com/ZLCHN-AI/gbm-btb-spatial-remodeling). No new patients or experiments are represented.
 
 ## Data sources
 

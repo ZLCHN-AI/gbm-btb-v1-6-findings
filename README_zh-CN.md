@@ -22,5 +22,7 @@ GBM 病理学浸润区（IT）与细胞性肿瘤区（CT）是否存在不同的
 - `figures/`：Figure 2B 汇总图初稿，并非供体逐点主图。
 - `docs/DATA_SOURCES.md`：GBM-Space 与外部数据资源来源及用途。
 - `docs/RELEASE_NOTES.md`：后续需要完善的事项。
+- `figure_code/`：可重新运行的出图代码。`make_figures.py` 用 `figure_code/data/` 中冻结的供体级和汇总数据表重画稿件的 Fig. 2、Fig. 4 和补充图 S2–S3（`python make_figures.py`，需要 numpy、pandas、matplotlib）。
+- `ivygap_ish.py`、`cache_ivygap/`、`results_ivygap/`：Ivy GAP 原位杂交数据的获取与分析脚本、可离线复现的 API 缓存和结果。
 
-原有仓库 `ZLCHN-AI/gbm-btb-spatial-remodeling` 保持不变。本项目作为**独立新仓库**公开 V1.6 工作稿的科研发现，不声称已完成复现代码包或功能性实验。
+原有仓库 `ZLCHN-AI/gbm-btb-spatial-remodeling` 保持不变。本项目作为**独立新仓库**公开 V1.6 工作稿的科研发现；上游分析脚本见该原有仓库。本仓库不包含原始 RNA-seq、Visium 或单核测序数据，不从原始数据重跑上游分析，也不涉及功能性实验；第三方数据须从原始提供方获取。
